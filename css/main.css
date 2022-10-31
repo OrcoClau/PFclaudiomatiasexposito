@@ -1,0 +1,600 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+.promo {
+  background-color: #DFC7F0;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  padding: 20px 0;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+}
+nav .hamburguesa {
+  border: none;
+  font-size: 30px;
+  display: none;
+}
+nav ul {
+  display: flex;
+  width: 100%;
+}
+nav ul li {
+  width: 100%;
+  background: linear-gradient(45deg, white, #EBEBEB);
+  list-style: none;
+  font-size: 23px;
+  text-align: center;
+  padding-top: 90px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+.mainIndex {
+  margin-top: 1%;
+  background-color: #EBEBEB;
+  display: flex;
+}
+.mainIndex section {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  margin: unset;
+}
+.mainIndex section h1 {
+  margin-top: 4%;
+  font-size: 45px;
+  margin-left: 8%;
+}
+.mainIndex section h2 {
+  margin-top: 15%;
+  margin-left: 8%;
+  font-size: 35px;
+}
+.mainIndex section h3 {
+  font-size: 35px;
+  margin-left: 8%;
+}
+.mainIndex section ul {
+  margin-top: 10%;
+  margin-right: 5%;
+}
+.mainIndex section ul li {
+  text-align: end;
+  font-size: 25px;
+}
+.mainIndex .imagenmain {
+  margin: 7%;
+  margin-bottom: 3%;
+}
+
+.presentacion {
+  padding: 3%;
+  background-color: #FFCEBD;
+  margin-top: 1%;
+}
+.presentacion p {
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  margin: 1%;
+}
+
+.div {
+  font-size: 25px;
+  margin: 20px;
+  height: 120px;
+  display: grid;
+  align-items: center;
+  background: linear-gradient(#EBEBEB, white, #EBEBEB);
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.sugerencia {
+  width: 100%;
+  display: flex;
+  height: 235px;
+}
+.sugerencia .sugerenciados {
+  display: grid;
+  background: #EBEBEB;
+  line-height: 70px;
+  text-align: initial;
+  align-items: center;
+  font-size: 22px;
+  padding-left: 15%;
+  width: 100%;
+}
+.sugerencia .sugerenciados p {
+  font-family: "Lato", sans-serif;
+}
+
+footer .redes {
+  background-color: #FFCEBD;
+  display: block;
+}
+footer .redes p {
+  font-family: "Playfair Display", serif;
+  -moz-text-align-last: right;
+       text-align-last: right;
+  margin: 1%;
+  padding-top: 25px;
+  padding-right: 35px;
+  font-size: 18px;
+}
+footer .redes .iconos {
+  display: flex;
+  justify-content: end;
+}
+footer .redes .iconos .sociales {
+  margin: 2%;
+}
+footer .copy {
+  background-color: #DFC7F0;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  padding: 15px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: auto;
+}
+
+#regina:checked ~ #imagenes .mapas, #regina:checked ~ #imagenes .flores {
+  display: none;
+}
+
+#mapas:checked ~ #imagenes .regina, #mapas:checked ~ #imagenes .flores {
+  display: none;
+}
+
+#flores:checked ~ #imagenes .mapas, #flores:checked ~ #imagenes .regina {
+  display: none;
+}
+
+.mainCuadernos {
+  margin-top: 1%;
+  background-color: #EBEBEB;
+}
+.mainCuadernos .cuadernos {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  margin: auto;
+}
+.mainCuadernos .cuadernos input {
+  text-align: left;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+.mainCuadernos .cuadernos label {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.mainCuadernos .cuadernos #imagenes {
+  margin-top: 30px;
+}
+
+.mainTalleres {
+  margin-top: 1%;
+  background-color: #EBEBEB;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 6%;
+  margin-bottom: 2%;
+}
+.mainTalleres h1 {
+  margin-top: 4%;
+  margin-bottom: 5%;
+  margin-left: 70px;
+  font-size: 48px;
+}
+.mainTalleres h2 {
+  margin-left: 70px;
+  font-size: 36px;
+}
+.mainTalleres section {
+  margin-top: 3%;
+  margin-left: 320px;
+  font-size: 24px;
+}
+.mainTalleres .ptalleres1 {
+  margin-top: 5%;
+  margin-left: 70px;
+  font-size: 24px;
+  color: blueviolet;
+}
+.mainTalleres .separacion {
+  margin-top: 1%;
+}
+.mainTalleres .ptalleres2 {
+  font-size: 24px;
+  margin-left: 70px;
+}
+.mainTalleres img {
+  margin: 3%;
+}
+.mainTalleres .materiales {
+  margin-left: 20px;
+  padding-left: 30px;
+}
+.mainTalleres .materiales h3 {
+  background-color: #FFB6A1;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  padding: 3%;
+}
+.mainTalleres .materiales ul li {
+  margin-top: 2%;
+}
+.mainTalleres .materiales .parrafoTaller {
+  background-color: #D6AFF1;
+  font-family: "Playfair Display", serif;
+  margin-top: 3%;
+  text-align: center;
+  padding: 3%;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  margin-top: 4%;
+  font-size: 45px;
+  margin-left: 8%;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4%;
+}
+.box .box1 {
+  text-align: center;
+}
+.box .box1 p {
+  background-color: #FFB6A1;
+  font-family: "Lato", sans-serif;
+  margin: 5%;
+  font-size: 24px;
+  padding: 5px;
+}
+.box .box2 {
+  text-align: center;
+}
+.box .box2 p {
+  background-color: #FFB6A1;
+  font-family: "Lato", sans-serif;
+  margin: 5%;
+  font-size: 24px;
+  padding: 5px;
+}
+.box .box3 {
+  text-align: center;
+}
+.box .box3 p {
+  background-color: #FFB6A1;
+  font-family: "Lato", sans-serif;
+  margin: 5%;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.purple {
+  background-color: #AAB5C5;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.paraMama {
+  margin-bottom: 3%;
+}
+.paraMama h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  margin: 3%;
+}
+.paraMama .mama {
+  margin-left: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.paraMama p {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+.paraMama .naranja {
+  margin: 3%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #FFC772;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.paraMama .velas {
+  margin-left: 2%;
+  display: flex;
+  margin-top: 2%;
+}
+.paraMama .velas .mia {
+  background-color: #AAB5C5;
+  width: 300px;
+  height: 130px;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.paraMama .velas .imgMia {
+  margin-top: 30px;
+  margin-left: 2%;
+}
+
+.inicial {
+  margin-bottom: 4%;
+}
+.inicial h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  margin: 3%;
+}
+.inicial .boxInicial {
+  display: flex;
+}
+.inicial .boxInicial p {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  margin: 10px;
+  margin-left: 25px;
+}
+.inicial .boxInicial .naranja {
+  margin: 3%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #FFC772;
+  padding-left: 80px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.emprendedor h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  margin: 3%;
+}
+.emprendedor .naranja {
+  margin: 3%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #FFC772;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+}
+.emprendedor p {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  margin: 10px;
+  margin-left: 25px;
+  margin-bottom: 1%;
+}
+.emprendedor div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.emprendedor div .ul {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  margin: 10px;
+  margin-left: 25px;
+  margin-bottom: 3%;
+}
+.emprendedor div .ul .li {
+  list-style: none;
+}
+
+.violeta {
+  background-color: #D6AFF1;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  margin: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 4%;
+  padding-left: 4%;
+  text-align: center;
+}
+
+.contacto {
+  margin-left: 3%;
+  display: grid;
+  grid-template-areas: "arribaizq arribader" "abajoizq abajoder";
+  justify-items: center;
+  margin-top: 2%;
+}
+.contacto .datos {
+  grid-area: "arribaizq";
+}
+.contacto .datos p {
+  font-family: "Playfair Display", serif;
+  margin-top: 25px;
+  font-size: 22px;
+}
+.contacto .datos .name .nombre {
+  border: 0;
+  background-color: #F0F2F6;
+  font-size: 20px;
+  padding: 2%;
+}
+.contacto .datos .mail .email {
+  border: 0;
+  background-color: #F0F2F6;
+  font-size: 20px;
+  padding: 2%;
+}
+.contacto .datos .telefono .tel {
+  border: 0;
+  background-color: #F0F2F6;
+  font-size: 20px;
+  padding: 2%;
+}
+.contacto .datos .mensaje {
+  margin-bottom: 3%;
+}
+.contacto .datos .boton {
+  border: 1px solid #C896EA;
+  padding: 8px;
+  background-color: #DFC7F0;
+  color: black;
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  margin-top: 25px;
+}
+.contacto .mapa {
+  margin-top: 40px;
+  grid-area: "arribader";
+}
+.contacto .redes {
+  font-family: "Playfair Display", serif;
+  grid-area: "abajoizq";
+}
+.contacto .redes .wasap {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+}
+.contacto .redes .insta {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+}
+.contacto .redes .email {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+}
+.contacto .delivery {
+  grid-area: "abajoder";
+}
+.contacto .delivery .contacto1 {
+  background-color: #C896EA;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  margin: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 4%;
+  padding-left: 4%;
+  text-align: center;
+}
+.contacto .delivery .contacto2 {
+  background-color: #D6AFF1;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  margin: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 4%;
+  padding-left: 4%;
+  text-align: center;
+}
+.contacto .delivery .contacto3 {
+  background-color: #DFC7F0;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  margin: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 4%;
+  padding-left: 4%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .imagenmain {
+    display: none;
+  }
+  .sugerencia {
+    display: none;
+  }
+  .section {
+    display: none;
+  }
+  .imagenTalleres {
+    display: none;
+  }
+  .box {
+    display: block;
+  }
+  .imgMama {
+    display: none;
+  }
+  .velas {
+    flex-direction: column;
+  }
+  .velas .imgMia {
+    text-align: center;
+    margin-left: 60px;
+  }
+  .imgInicial {
+    display: none;
+  }
+  .imgEmprendedor {
+    display: none;
+  }
+  .contacto {
+    display: block;
+  }
+  .cuadernos {
+    display: flex;
+  }
+  .datos {
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+  .navUl {
+    flex-direction: column;
+  }
+  .navLi {
+    padding: 20px 0;
+  }
+  .navLi:hover a {
+    color: #C896EA;
+  }
+  .logo {
+    display: none;
+  }
+  .hamburguesa {
+    display: block;
+  }
+  .parrafoTaller {
+    margin-right: 5%;
+  }
+}/*# sourceMappingURL=main.css.map */
